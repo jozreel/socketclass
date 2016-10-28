@@ -55,12 +55,12 @@ var socketclass = function(){
 
 	}
     socketclass.prototype.onconnect = function(){
-        console.log('connect');
+        console.log('connect'); 
     }
     socketclass.onerror = function(err) {console.log(err, 'an error occured');}
     socketclass.prototype.onclose =function(){
-              
-
+                
+ 
     }
 
 
